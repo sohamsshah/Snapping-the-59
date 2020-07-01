@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+
+.header {
+    padding-top: 20px;
+    font-family: 'Holtwood One SC', serif;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    justify-content: space-evenly;
+}
+
+.img1 {
+    height: 200px;
+    width: 200px;
+    background-image: url("logos/tiktok.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.img2 {
+    height: 200px;
+    width: 200px;
+    background-image: url("logos/uc.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.img3 {
+    height: 200px;
+    width: 200px;
+    background-image: url("logos/cs.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.img4 {
+    height: 200px;
+    width: 200px;
+    background-image: url("logos/xender.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.img5 {
+    height: 200px;
+    width: 200px;
+    background-image: url("logos/shareit.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.img6 {
+    height: 200px;
+    width: 200px;
+    background-image: url("logos/cf.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.img7 {
+    height: 200px;
+    width: 200px;
+    background-image: url("logos/like.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.img8 {
+    height: 200px;
+    width: 200px;
+    background-image: url("logos/shein.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#garbage {
+    font-size: 60px;
+    border-radius: 2rem;
+    box-shadow: 1rem;
+    color: whitesmoke;
+    font-family: 'Anton', sans-serif;
+    display: none;
+    text-align: center;
+    margin-top: -150px;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(5deg);
+    }
+    80% {
+        transform: rotate(0deg);
+    }
+    85% {
+        transform: rotate(-5deg);
+    }
+    95% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+.wiggle {
+    display: inline-block;
+    animation: wiggle 0.8s infinite;
+}
+
+.wiggle:hover {
+    animation: none;
+}
+
+#footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 3px;
+    margin-top: 30px;
+}
